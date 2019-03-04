@@ -1,0 +1,28 @@
+{% extends 'mypost/base.html' %}
+
+{% block content %}
+<br>
+<h1 class="container text-center home-heading">Latest - Blogs</h1>
+<br><br>
+<div class="list-group">
+    {% for post in posts %}
+
+  
+    <div class="review">
+        <span class="d-flex justify-content-between"><a href="{{ post.id }}" class="text-warning "> {{post.title}}</a>
+            <p class="text-warning date">{{ post.pub_date }}</p>
+        </span>
+        <p class="snippet">{{post.snippet}}</p>
+    </div>
+    <div class="author">
+        <p class="text-center">{{ post.author }}</p>
+    </div>
+    
+
+
+
+
+
+    {% endfor %}
+</div>
+{% endblock %}

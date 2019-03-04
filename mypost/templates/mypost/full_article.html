@@ -1,0 +1,15 @@
+{% extends 'mypost/base.html' %}
+
+{% block content %}
+<br>
+<h1 class="container text-center text-warning title">{{article.title}}</h1>
+<br>
+<span class="d-flex justify-content-between">
+<p class="text-warning date">{{article.pub_date}}</p>
+<p class="article_author"><b class = "bold">Written by :</b> {{article.author}}</p></span>
+<br><br>
+<p class="text-light text-left content">{{article.blog_content}}</p>
+<br><br>
+<a href="/" class="btn btn-danger">Go Back</a>
+<br><br>
+{% endblock %}

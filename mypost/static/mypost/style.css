@@ -1,0 +1,125 @@
+div.list-group a{
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+    
+}
+
+
+body{
+    background:#008080;
+}
+
+h1.title{
+    text-transform: capitalize;
+}
+
+p.date{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+ p.content {
+     font-size: 20px;
+ }
+
+ i.icon{
+     font-size: 30px;
+     line-height:70px;
+     margin-left: 20px;
+ }
+
+ div.form-group{
+     width: 500px;
+     margin:auto;
+
+ }
+
+ h2.heading{
+     font-weight: bold;
+     color: black;
+     
+ }
+
+ div.review {
+    border: 5px solid salmon;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+div.review a{
+    font-family: comic sans ms;
+    font-size: 2em;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+div.review p.date{
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+div.review p.snippet{
+    margin-left: 20px;
+    font-size: 1.1em;
+    color: #E0FFFF;
+}
+
+h1.home-heading{
+    color:indigo;
+    font-weight: bold;
+    font-family: broadway;
+    font-size: 3em;
+}
+
+i.icon{
+    font-size: 2em;
+    margin-top: 50px;
+   color: black;
+
+}
+
+div.author{
+    width: 130px;
+    height: 60px;
+    background-color: salmon;
+    border-radius: 8px;
+    line-height: 60px;
+    position: relative;
+    top: -45px;
+    left: 80%;
+    
+
+}
+
+div.author p{
+    font-size: 2em;
+    color: indigo;
+    font-weight: bold;
+    font-family: forte;
+    letter-spacing: 2px;
+    
+    
+}
+
+p b.bold{
+    color: indigo;
+    
+}
+
+p.article_author {
+    font-size: 1.5em;
+    color: salmon;
+    letter-spacing: 2.5px;
+    font-family: forte;
+}
+
+h1.title{
+    font-family: elephant;
+    letter-spacing: 2px;
+}
